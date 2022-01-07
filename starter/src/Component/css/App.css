@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "Clear Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://github.com/intel/clear-sans/blob/main/EOT/ClearSans-Regular.eot%22");
+    src: local("Clear Sans"), local("Clear-Sans");
+        /* url("./fonts/ClearSans-Regular.eot#iefix") format("embedded-opentype")
+        / Super Modern Browsers/ url("./fonts/ClearSans-Regular.woff") format("woff"),
+        / * Modern Browsers / url("./fonts/ClearSans-Regular.ttf") format("truetype"),
+        / Safari, Android, iOS / url("./fonts/ClearSans-Regular.svg#ClearSans") format("svg") */
+    color: rgb(255, 248, 248);
+}
+
+.App {
+  text-align: center;
+  /* background-color:rgb(255, 248, 248); */
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.align {
+    display: flex;
+    justify-content: space-between;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.body {
+  padding: 48px;
+  background-color: rgb(233, 233, 233);
+}
+
+.btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-custom {
+  align-self: center;
+  width: 100%;
+}
+
+.body-align-left {
+  margin-left: 15px;
+  text-align: left;
+}
+
+.body-align-right {
+  margin-right: 15px;
+  text-align: right;
+}
+
+.card-body {
+  padding-top: 0px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.container {
+  border-radius: 4px;
+}
+
+.container-header-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.containerHeight {
+  max-height: 200px;
+}
+
+.colForm {
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.dfxHeader {
+  background-color: #001450;
+  align-items: center;
+  display: flex;
+  height: 100px;
+}
+
+#dropdown-basic-button {
+  color: white;
+}
+
+#editButton {
+  margin-left: 10px;
+}
+
+.header-img {
+  padding-top: 10%;
+}
+
+.header-text {
+  padding-top: 23%;
+  color: white;
+}
+
+.img-fluid {
+  margin-bottom: 20px;
+}
+
+.input {
+width: 400px;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.modalForm {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.margin-right {
+  margin-right: 20px;
+}
+
+.modal-div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.margin {
+  margin-left: 10px;
+}
+.overflow {
+  overflow-y: auto;
+  max-height: 400px;
+}
+
+.round-corner {
+  border-radius: 4px;
+}
+
+.sub-entry {
+  width: 50%;
+  float: left;
+}
+
+.vacancy{
+  height:20rem;
+}
